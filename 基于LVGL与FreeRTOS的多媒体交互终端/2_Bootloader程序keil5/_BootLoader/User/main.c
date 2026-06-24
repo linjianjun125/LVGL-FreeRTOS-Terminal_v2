@@ -15,6 +15,9 @@ int main(void)
 	
     FATFS fs;
     FRESULT res;
+
+
+    
     char *update_file = "0:/atk_h743_packed.bin";
 
     sys_cache_enable();                            
